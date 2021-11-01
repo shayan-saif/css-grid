@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+body .app {
+  min-height: 100vh;
+  background-color: #dcdcdc;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  font-family: sans-serif;
+}
+body .app div {
+  display: flex;
+  height: 100%;
+}
+body .app .nav {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: #e98585;
+  justify-content: center;
+  align-items: center;
+}
+body .app .body {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+body .app .body .sidebar {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-color: #c7c7c7;
+}
+body .app .body .content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  background-color: #85cee0;
+}
+body .app .footer {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=index.3d6b4524.css.map */
